@@ -1,170 +1,474 @@
 <!DOCTYPE HTML>
-<!--
-	Big Picture by HTML5 UP
-	html5up.net | @n33co
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
 <html>
-	<head>
-		<title>Big Picture by HTML5 UP</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-	</head>
-	<body>
 
-		<!-- Header -->
-			<header id="header">
+<head>
+    <title>Jasmine for Secretary!</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+    <!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+</head>
 
-				<!-- Logo -->
-					<h1 id="logo">Big Picture</h1>
+<body onload="playVideo()">
 
-				<!-- Nav -->
-					<nav id="nav">
-						<ul>
-							<li><a href="#intro">Intro</a></li>
-							<li><a href="#one">What I Do</a></li>
-							<li><a href="#two">Who I Am</a></li>
-							<li><a href="#work">My Work</a></li>
-							<li><a href="#contact">Contact</a></li>
-						</ul>
-					</nav>
+    <!-- Header -->
+    <section id="header" class="dark">
+        <div style="position: fixed; top: 0; width: auto; height: 100vh; z-index: -2;">
+            <video id="bannervid" style="min-width: 100vw; min-height: 100%" autoplay loop>
+                <source src="images/bgvid.mp4#t=5,198"> Your browser does not support the video tag.
+            </video>
+        </div>
+        <header>
+            <h1>Hey there!  I'm Jasmine.</h1>
+            <p>I'm running to be your Junior Class Secretary :)</a>
+            </p>
+        </header>
+        <footer>
+            <a href="#first" class="button scrolly">Learn more</a>
+        </footer>
+    </section>
 
-			</header>
+    <!-- First -->
+    <section id="first" class="main">
+        <div class="content dark style3">
+            <div class="container">
+                <span class="fa fa-connectdevelop fa-5x"></span>
+                <div class="row">
+                    <div class="6u 12u(wide)">
+                        <h3 style="padding-top: 30px; text-transform: uppercase">Connections matter.</h3> We all know the dreaded feeling of doubt-- that we can't handle all this work anymore and that we're bound to crumble under all this stress. It’s when we hit these low points in life that connections matter the most.</p>
+                        <p>That's why I'm proposing a different approach to junior year: one where we, as a bonded class, can support each other and thrive in our toughest year of high school yet.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <header>
+            <div class="container">
+                <h2>A Basic Foundation.</h2>
+                <p>A strong class deserves the best basic fundamentals to keep our class running smoothly.</p>
+                <p>These shouldn't be something that you have to fight for: they're your rights.</p>
+            </div>
+        </header>
+        <div class="content dark style1 featured">
+            <div class="container">
+                <div class="row">
+                    <div class="4u 12u(narrow)">
+                        <section>
+                            <span class="feature-icon"><span class="icon fa-line-chart"></span></span>
+                            <header>
+                                <h3>Transparency</h3>
+                            </header>
+                            <p>Our current class officers are doing an amazing job with class transparency, and I'll carry on their legacy by starting the year off with more frequent updates on what's going behind the scenes.</p>
+                        </section>
+                    </div>
+                    <div class="4u 12u(narrow)">
+                        <section>
+                            <span class="feature-icon"><span class="icon fa-comments"></span></span>
+                            <header>
+                                <h3>Communication</h3>
+                            </header>
+                            <p>Now equipped with a super great website, I believe we can help unlock it's full potential by sending all student frequent reminders to keep them in the loop of current events. More extensive use of the website will help those students lacking access to our Facebook group a chance to keep up. </p>
+                        </section>
+                    </div>
+                    <div class="4u 12u(narrow)">
+                        <section>
+                            <span class="feature-icon"><span class="icon fa-usd"></span></span>
+                            <header>
+                                <h3>Fundraising</h3>
+                            </header>
+                            <p>Money is going to be an essential part of our junior year to fund events like Homecoming with the additional of Junior Prom. But I want to make fundraisers more than just money-- I want to provide our class with opportunities to connect and make those priceless relationships that will sure to help each of you greatly down the road.</p>
+                        </section>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="12u">
+                        <footer>
+                            <!--                            <a href="#firstpt5" class="button scrolly">Gravida tempor lacinia</a>-->
+                        </footer>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-		<!-- Intro -->
-			<section id="intro" class="main style1 dark fullscreen">
-				<div class="content container 75%">
-					<header>
-						<h2>Hey.</h2>
-					</header>
-					<p>Welcome to <strong>Big Picture</strong> a responsive site template designed
-					by <a href="http://html5up.net">HTML5 UP</a>, built on <strong><a href="http://getskel.com">Skel</a></strong>,
-					and released for free under the <a href="http://html5up.net/license">Creative Commons Attribution 3.0 license</a>.</p>
-					<footer>
-						<a href="#one" class="button style2 down">More</a>
-					</footer>
-				</div>
-			</section>
+    <!-- First Point Five -->
+    <section id="firstpt5" class="main">
+        <header>
+            <div class="container">
+                <h2>What's New?</h2>
+                <p>I've got some innovative new ideas as well, which are going to take our class to the next level.</p>
+            </div>
+        </header>
+        <div class="content dark style1 featured">
+            <div class="container">
+                <div class="row">
+                    <div class="4u 12u(narrow)">
+                        <section>
+                            <span class="feature-icon"><span class="icon fa-shopping-cart"></span></span>
+                            <header>
+                                <h3>Class Merchandise</h3>
+                            </header>
+                            <p>Why only have class apparel when you can get anything from posters and wallets to lanyards and stickers?!! Not only can we sport class spirit in style, but this creates numerous opportunities for fundraising.</p>
+                        </section>
+                    </div>
+                    <div class="4u 12u(narrow)">
+                        <section>
+                            <span class="feature-icon"><span class="icon fa-cutlery"></span></span>
+                            <header>
+                                <h3>Banquets</h3>
+                            </header>
+                            <p>Held in the evening, banquets will consist of a great dinner to fill you up while your fellow classmate perform for you. It's a great way to bond and hang out with friends and creates opportunities for those wanting to step out of their comfort zone and strut their stuff! Again, another great way to fundraise(it’s not that we care about money--we ultimately want to provide you with the greatest junior prom experience next year!!). </p>
+                        </section>
+                    </div>
+                    <div class="4u 12u(narrow)">
+                        <section>
+                            <span class="feature-icon"><span class="icon fa-users"></span></span>
+                            <header>
+                                <h3>Service</h3>
+                            </header>
+                            <p>Might sounds like something right out of a club, but what I have in mind for our class are chances to spread positivity to others and within yourselves. You all know the feeling: a small act of kindness can mean the world for one person, but it can also improve your own mentality. Just seeing that you’re able to improve the lives of others no matter how little is enough to lift you up. Spread the kindness-- it's contagious, and soon enough you'll realize that the smallest acts can create the largest ripple. </p>
+                        </section>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="12u">
+                        <footer>
+                            <!--                            <a href="#second" class="button scrolly">Gravida tempor lacinia</a>-->
+                        </footer>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-		<!-- One -->
-			<section id="one" class="main style2 right dark fullscreen">
-				<div class="content box style2">
-					<header>
-						<h2>What I Do</h2>
-					</header>
-					<p>Lorem ipsum dolor sit amet et sapien sed elementum egestas dolore condimentum.
-					Fusce blandit ultrices sapien, in accumsan orci rhoncus eu. Sed sodales venenatis arcu,
-					id varius justo euismod in. Curabitur egestas consectetur magna.</p>
-				</div>
-				<a href="#two" class="button style2 down anchored">Next</a>
-			</section>
+    <!-- Second -->
+    <section id="second" class="main">
+        <header>
+            <div class="container">
+                <h2>A Little More About Me!</h2>
 
-		<!-- Two -->
-			<section id="two" class="main style2 left dark fullscreen">
-				<div class="content box style2">
-					<header>
-						<h2>Who I Am</h2>
-					</header>
-					<p>Lorem ipsum dolor sit amet et sapien sed elementum egestas dolore condimentum.
-					Fusce blandit ultrices sapien, in accumsan orci rhoncus eu. Sed sodales venenatis arcu,
-					id varius justo euismod in. Curabitur egestas consectetur magna.</p>
-				</div>
-				<a href="#work" class="button style2 down anchored">Next</a>
-			</section>
+            </div>
+        </header>
+        <div class="content dark style2">
+            <div class="container">
+                <div class="row">
+                    <div class="6u 12u(wide)">
+                        <section>
+                            <h3>In the end, the best way you can judge how I will perform as your class secretary is to get a know me a little better. :") </h3>
+                            <p>But really, there's not much to say: I'm just another student trying to make my way through high school and enjoy the process.</p>
+                            <p>I really, REALLY enjoy Wushu, and I've performed during Multicultural week as well as served as the air band leader for this year's HC Fight Set!</p>
+                            <p>When I can't go out and practice martial arts, I spend my time on YouTube searching up inspiration for art and graphic design. I've liked to draw ever since I was little, and I'm glad that I can still use my interest to help our class. I helped our class officers out this year, designing both the class logo and windbreaker.</p>
+                            <!--
+                            <footer>
+    <a href="#third" class="button scrolly">Accumsan nisi tempor</a>
+</footer>
+-->
+                        </section>
+                    </div>
+                    <div class="6u 12u(narrow)">
+                        <div class="row">
+                            <div class="12u">
+                                <a href="#" class="image fit"><img src="images/wushu.jpg" alt="" /></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="6u 12u(narrow)">
+                        <div class="row">
+                            <div class="12u">
+                                <a href="#" class="image fit"><img src="images/ps.PNG" alt="" /></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-		<!-- Work -->
-			<section id="work" class="main style3 primary">
-				<div class="content container">
-					<header>
-						<h2>My Work</h2>
-						<p>Lorem ipsum dolor sit amet et sapien sed elementum egestas dolore condimentum.
-						Fusce blandit ultrices sapien, in accumsan orci rhoncus eu. Sed sodales venenatis
-						arcu, id varius justo euismod in. Curabitur egestas consectetur magna vitae.</p>
-					</header>
+    <!-- Third -->
+    <section id="third" class="main">
+        <!--
+        <header>
+            <div class="container">
+                <h2>Ornare varius lorem ipsum ante lectus</h2>
+                <p>Gravida dis placerat lectus ante vel nunc euismod eget ornare varius gravida euismod lorem ipsum dolor sit amet consequat
+                    <br /> feugiat. Gravida dis placerat lectus ante vel nunc euismod eget ornare varius gravida euismod lorem ipsum dolor sit amet.</p>
+            </div>
+        </header>
+-->
+        <div class="content dark style3">
+            <div class="container">
+                <span class="image featured"><img src="images/pic07.jpg" alt="" /></span>
+                <div class="row">
+                    <div class="4u 12u(narrow)">
+                        <h3>But one thing I'd really like to address further is my personal belief on how we can best tackle high school together.</h3>
+                        <p>As we continue our high school career, we’re overwhelmed with more and more stress each year. The sad truth is that it just doesn’t get easier. But when the roads get rougher and the nights feel longer, we really need our peers to be there and help us pull through. It’s when we reach our darkest and lowest times that we begin to realize just how much our relationships matter. Students often get too caught up with school and fail to see that within all the all-nighters pulled and group projects clutched, there’s still something that makes high school all the worthwhile: the bonds and memories we share with our</p>
+                    </div>
+                    <div class="4u 12u(narrow)">
+                        <p>class. I believe that with the help of other officers, we can supply our class with countless opportunities to create those much needed memories, good vibes, and relationships that we’ll treasure forever. What really gets you far in life are built upon the connections you share with people you can depend on. It’ll get rough, but I truly want our class to take what we have and make the most out of it. No, these changes aren’t going to happen overnight. But through constant commitment, we will succeed in improving our high school experience, step by step. What I’m asking from you, as a fellow student, is to give me the opportunity to make these changes.</p>
+                        <p>These changes alone aren’t going to make junior year any easier instantly--it’s a process that requires the help of the students, and in turn we’ll be able to</p>
+                    </div>
+                    <div class="4u 12u(narrow)">
+                        <p>discover the positive aspects of high school itself. I hope that even if I can’t change our student mentality on school, I can at least help expand your perspectives and shine light onto your junior year experience.</p>
+                        <!--
+                        <footer>
+<a href="#fourth" class="button scrolly">Ipsum ornare lorem dolor</a>
+</footer>
+-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-					<!-- Lightbox Gallery  -->
-						<div class="container 75% gallery">
-							<div class="row 0% images">
-								<div class="6u 12u(mobile)"><a href="images/fulls/01.jpg" class="image fit from-left"><img src="images/thumbs/01.jpg" title="The Anonymous Red" alt="" /></a></div>
-								<div class="6u 12u(mobile)"><a href="images/fulls/02.jpg" class="image fit from-right"><img src="images/thumbs/02.jpg" title="Airchitecture II" alt="" /></a></div>
+    <!-- Basic Elements -->
+    <!--
+			<section class="main">
+				<header>
+					<div class="container">
+						<h2>A Whole Lotta Elements</h2>
+						<p>General purpose elements for every general purpose. Or something like that.</p>
+					</div>
+				</header>
+				<div class="content style1 dark">
+					<div class="container">
+						<section>
+							<header>
+								<h3>Paragraph</h3>
+								<p>This is a byline</p>
+							</header>
+							<p>Phasellus nisl nisl, varius id <sup>porttitor sed pellentesque</sup> ac orci. Pellentesque
+							habitant <strong>strong</strong> tristique <b>bold</b> et netus <i>italic</i> malesuada <em>emphasized</em> ac turpis egestas. Morbi
+							leo suscipit ut. Praesent <sub>id turpis vitae</sub> turpis pretium ultricies. Vestibulum sit
+							amet risus elit.</p>
+						</section>
+						<section>
+							<header>
+								<h3>Blockquote</h3>
+							</header>
+							<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget.
+							tempus euismod. Vestibulum ante ipsum primis in faucibus. Cras sit amet urna eros, id egestas
+							tempus ante ipsum primis in faucibus orci luctus et ultrices.</blockquote>
+						</section>
+						<section>
+							<header>
+								<h3>Divider</h3>
+							</header>
+							<p>Donec consectetur <a href="#">vestibulum dolor et pulvinar</a>. Etiam vel felis enim, at viverra
+							ligula. Ut porttitor sagittis lorem, quis eleifend nisi ornare vel. Praesent nec orci
+							facilisis leo magna. Cras sit amet urna eros, id egestas urna. Quisque aliquam
+							tempus euismod. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
+							posuere cubilia.</p>
+							<hr />
+							<p>Donec consectetur vestibulum dolor et pulvinar. Etiam vel felis enim, at viverra
+							ligula. Ut porttitor sagittis lorem, quis eleifend nisi ornare vel. Praesent nec orci
+							facilisis leo magna. Cras sit amet urna eros, id egestas urna. Quisque aliquam
+							tempus euismod. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
+							posuere cubilia.</p>
+						</section>
+						<section>
+							<header>
+								<h3>Unordered List</h3>
+							</header>
+							<ul class="default">
+								<li>Donec consectetur vestibulum dolor et vel felis enim at viverra ligula. Ut porttitor sagittis lorem.</li>
+								<li>Donec consectetur vestibulum dolor et vel felis enim at viverra ligula. Ut porttitor sagittis lorem.</li>
+								<li>Donec consectetur vestibulum dolor et vel felis enim at viverra ligula. Ut porttitor sagittis lorem.</li>
+								<li>Donec consectetur vestibulum dolor et vel felis enim at viverra ligula. Ut porttitor sagittis lorem.</li>
+							</ul>
+						</section>
+						<section>
+							<header>
+								<h3>Ordered List</h3>
+							</header>
+							<ol class="default">
+								<li>Donec consectetur vestibulum dolor et vel felis enim at viverra ligula. Ut porttitor sagittis lorem.</li>
+								<li>Donec consectetur vestibulum dolor et vel felis enim at viverra ligula. Ut porttitor sagittis lorem.</li>
+								<li>Donec consectetur vestibulum dolor et vel felis enim at viverra ligula. Ut porttitor sagittis lorem.</li>
+								<li>Donec consectetur vestibulum dolor et vel felis enim at viverra ligula. Ut porttitor sagittis lorem.</li>
+							</ol>
+						</section>
+						<section>
+							<header>
+								<h3>Table</h3>
+							</header>
+							<div class="table-wrapper">
+								<table class="default">
+									<thead>
+										<tr>
+											<th>ID</th>
+											<th>Name</th>
+											<th>Description</th>
+											<th>Price</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>00001</td>
+											<td>Lorem ipsum dolor</td>
+											<td>Ut porttitor sagittis lorem quis nisi ornare.</td>
+											<td>29.99</td>
+										</tr>
+										<tr>
+											<td>00002</td>
+											<td>Sit amet nullam</td>
+											<td>Ut porttitor sagittis lorem quis nisi ornare.</td>
+											<td>19.99</td>
+										</tr>
+										<tr>
+											<td>00003</td>
+											<td>Feugiat felis viverra</td>
+											<td>Ut porttitor sagittis lorem quis nisi ornare.</td>
+											<td>29.99</td>
+										</tr>
+										<tr>
+											<td>00004</td>
+											<td>Sagittis enim felis</td>
+											<td>Ut porttitor sagittis lorem quis nisi ornare.</td>
+											<td>19.99</td>
+										</tr>
+										<tr>
+											<td>00005</td>
+											<td>Nullam sed vestibulum</td>
+											<td>Ut porttitor sagittis lorem quis nisi ornare.</td>
+											<td>19.99</td>
+										</tr>
+									</tbody>
+									<tfoot>
+										<tr>
+											<td colspan="3"></td>
+											<td>100.00</td>
+										</tr>
+									</tfoot>
+								</table>
 							</div>
-							<div class="row 0% images">
-								<div class="6u 12u(mobile)"><a href="images/fulls/03.jpg" class="image fit from-left"><img src="images/thumbs/03.jpg" title="Air Lounge" alt="" /></a></div>
-								<div class="6u 12u(mobile)"><a href="images/fulls/04.jpg" class="image fit from-right"><img src="images/thumbs/04.jpg" title="Carry on" alt="" /></a></div>
-							</div>
-							<div class="row 0% images">
-								<div class="6u 12u(mobile)"><a href="images/fulls/05.jpg" class="image fit from-left"><img src="images/thumbs/05.jpg" title="The sparkling shell" alt="" /></a></div>
-								<div class="6u 12u(mobile)"><a href="images/fulls/06.jpg" class="image fit from-right"><img src="images/thumbs/06.jpg" title="Bent IX" alt="" /></a></div>
-							</div>
-						</div>
-
-				</div>
-			</section>
-
-		<!-- Contact -->
-			<section id="contact" class="main style3 secondary">
-				<div class="content container">
-					<header>
-						<h2>Say Hello.</h2>
-						<p>Lorem ipsum dolor sit amet et sapien sed elementum egestas dolore condimentum.</p>
-					</header>
-					<div class="box container 75%">
-
-					<!-- Contact Form -->
+						</section>
+						<section>
+							<header>
+								<h3>Form</h3>
+							</header>
 							<form method="post" action="#">
 								<div class="row 50%">
-									<div class="6u 12u(mobile)"><input type="text" name="name" placeholder="Name" /></div>
-									<div class="6u 12u(mobile)"><input type="email" name="email" placeholder="Email" /></div>
+									<div class="6u 12u(narrow)">
+										<input type="text" name="name" id="name" value="" placeholder="John Doe" />
+									</div>
+									<div class="6u 12u(narrow)">
+										<input type="text" name="email" id="email" value="" placeholder="johndoe@domain.tld" />
+									</div>
 								</div>
 								<div class="row 50%">
-									<div class="12u"><textarea name="message" placeholder="Message" rows="6"></textarea></div>
+									<div class="12u">
+										<div class="select" tabindex="-1">
+											<select name="department" id="department">
+												<option value="">Choose a department</option>
+												<option value="1">Manufacturing</option>
+												<option value="2">Administration</option>
+												<option value="3">Support</option>
+											</select>
+										</div>
+									</div>
+								</div>
+								<div class="row 50%">
+									<div class="12u">
+										<input type="text" name="subject" id="subject" value="" placeholder="Enter your subject" />
+									</div>
+								</div>
+								<div class="row 50%">
+									<div class="12u">
+										<textarea name="message" id="message" placeholder="Enter your message"></textarea>
+									</div>
 								</div>
 								<div class="row">
 									<div class="12u">
 										<ul class="actions">
-											<li><input type="submit" value="Send Message" /></li>
+											<li><input type="submit" class="button" value="Send Message" /></li>
+											<li><input type="reset" class="button alt" value="Clear Form" /></li>
 										</ul>
 									</div>
 								</div>
 							</form>
-
+						</section>
 					</div>
 				</div>
 			</section>
+		-->
 
-		<!-- Footer -->
-			<footer id="footer">
+    <!-- Fourth -->
+    <section id="fourth" class="main">
+        <header>
+            <div class="container">
+                <h2>Thanks for making it this far and spending time to read my ideas for next year! <span class="fa fa-heart-o"></span></h2>
+                <p>Feel free to contact me if you any questions, comments, or just need a buddy to chat with :)</span>
+                </p>
+            </div>
+        </header>
+        <div class="content style4 featured">
+            <div class="container 75%">
+                <a class="button" href="https://www.facebook.com/profile.php?id=100005513884304">Send me a message</a>
+                <a class="button alt" href="">Shoot me an email</a>
 
-				<!-- Icons -->
-					<ul class="actions">
-						<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-						<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-						<li><a href="#" class="icon fa-google-plus"><span class="label">Google+</span></a></li>
-						<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
-						<li><a href="#" class="icon fa-pinterest"><span class="label">Pinterest</span></a></li>
-						<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-					</ul>
+                <!--
+                <form method="post" action="#">
+                    <div class="row 50%">
+                        <div class="6u 12u(mobile)">
+                            <input type="text" placeholder="Name" />
+                        </div>
+                        <div class="6u 12u(mobile)">
+                            <input type="text" placeholder="Email" />
+                        </div>
+                    </div>
+                    <div class="row 50%">
+                        <div class="12u">
+                            <textarea name="message" placeholder="Message"></textarea>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="12u">
+                            <ul class="actions">
+                                <li>
+                                    <input type="submit" class="button" value="Send Message" />
+                                </li>
+                                <li>
+                                    <input type="reset" class="button alt" value="Clear Form" />
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </form>
+-->
+            </div>
+        </div>
+    </section>
 
-				<!-- Menu -->
-					<ul class="menu">
-						<li>&copy; Untitled</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-					</ul>
+    <!-- Footer -->
+    <section id="footer">
+        <ul class="icons">
+            <li><a href="#" class="icon fa-youtube"><span class="label">YouTube</span></a></li>
+            <li><a href="https://www.facebook.com/events/1703214343258886/" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+            <!--            <li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>-->
+            <!--            <li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>-->
+            <!--            <li><a href="#" class="icon fa-github"><span class="label">GitHub</span></a></li>-->
+        </ul>
+        <div class="copyright">
+            <ul class="menu">
+                <li>&copy; 2016 Jasmine Syu.</li>
+            </ul>
+        </div>
+    </section>
 
-			</footer>
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/skel.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+    <script src="assets/js/main.js"></script>
+    <script>
+        function playVideo() {
+            $('video')[0].play();
+        }
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.poptrox.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-			<script src="assets/js/main.js"></script>
+    </script>
+</body>
 
-	</body>
 </html>
