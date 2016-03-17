@@ -1804,6 +1804,7 @@ button.alt:hover,
 
 #header {
     position: relative;
+    height: 100vh;
     margin: 0;
     background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8));
     background-size: auto, cover;
@@ -1868,7 +1869,9 @@ button.alt:hover,
     background: url("images/bgtr.svg") top right no-repeat, url("images/bgbl.svg") bottom left no-repeat, url("images/overlay.png"), linear-gradient(45deg, #384955, #655361, #85505f);
 }
 .main > .content.style3 {
-    background: url("images/bgtr.svg") top right no-repeat, url("images/bgbl.svg") bottom left no-repeat, url("images/overlay.png"), linear-gradient(45deg, #5f796b, #3a4e59, #2f394e);
+    background: url("images/bgtr.svg") top right no-repeat, url("images/bgbl.svg") bottom left no-repeat, url("images/overlay.png"), linear-gradient(45deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../../images/sparkle.jpg");
+    /*        linear-gradient(45deg, #5f796b, #3a4e59, #2f394e);*/
+    text-align: right;
 }
 .main > .content.style4 {
     padding-top: 0;
@@ -1928,10 +1931,12 @@ button.alt:hover,
     /* Header */
     #header {
         padding: 12em 0 12em 0;
+        /*        position: fixed;*/
     }
     /* Main Sections */
     .main > header {
         padding: 4em 0 4em 0;
+        /*        position: fixed;*/
     }
     .main > .content {
         padding: 4em 0 4em 0;
@@ -1950,6 +1955,12 @@ button.alt:hover,
     h5,
     h6,
     header > p {
+        text-align: center;
+    }
+    .main span {
+        text-align: center;
+    }
+    .main p {
         text-align: center;
     }
     /* Sections/Article */
